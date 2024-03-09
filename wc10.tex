@@ -1,0 +1,62 @@
+\documentclass[a4paper]{exam}
+
+\usepackage{amsfonts,amsmath,amsthm}
+\usepackage[a4paper]{geometry}
+\usepackage{xcolor}
+
+\newcommand\N{\ensuremath{\mathbb{N}}}
+\newcommand\union{\cup}
+\newcommand\interx{\cap}
+
+\header{CS/MATH 113}{WC10: Set Cardinality}{Spring 2024}
+\footer{}{Page \thepage\ of \numpages}{}
+\runningheadrule
+\runningfootrule
+
+\printanswers
+
+\qformat{{\large\bf \thequestion. \thequestiontitle}\hfill(\thepoints)}
+\boxedpoints
+
+\title{Weekly Challenge 10: Set Cardinality}
+\author{CS/MATH 113 Discrete Mathematics}
+\date{Spring 2024}
+
+\begin{document}
+\maketitle
+
+\begin{questions}
+
+\titledquestion{Cardinality and Set Operations}[0]
+  This ungraded problem provides the background for the next, graded problem for which you will require one or more of the results below. Find and go over the proofs of these results. No submission is needed for this problem but the results will prove useful for the next problem.
+  
+  \begin{parts}
+  \part The union of countably many countable sets is countable.
+  \part The superset of an uncountable set is uncountable.
+  \part The powerset of a countable set is uncountable.
+  \end{parts}
+
+
+\titledquestion{Fibonacci Unchained}[10]
+
+  Consider an infinite matrix, $A$, in which the entry in the $i$-th row and $j$-th column is defined as follows.
+  \[
+    a[i,j] = a[i,j-1] + a[i,j-2], \quad a[i,1] = i, a[i,2] = i+1, \quad i\geq 1, j\geq 1.
+  \]
+  Consider a matrix, $B$, obtained from $A$ as follows.
+  \[
+    b[i,j]= a[i,i]
+  \]
+  Argue whether the number of entries in $B$ is countable.
+  
+    \begin{solution}
+
+    \end{solution}
+
+\end{questions}
+
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
