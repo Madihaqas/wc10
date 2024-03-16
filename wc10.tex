@@ -51,6 +51,37 @@
   
     \begin{solution}
 
+    Matrix A looks like the following:
+    \[
+\begin{array}{cccccccc}
+i& 1 & 2 & 3 & 4 & 5 & \cdots \\
+\hline
+1 & 1 & 2 & 3 & 4 & 5 & \cdots \\
+2 & 2 & 3 & 4 & 5 & 6 & \cdots \\
+3 & 3 & 5 & 7 & 9 & 11 & \cdots \\
+4 & 5 & 8 & 11 & 14 & 17 & \cdots \\
+5 & 8 & 13 & 18 & 23 & 28 & \cdots \\
+6 & 13 & 21 & 29 & 37 & 45 & \cdots \\
+\vdots & \vdots & \vdots & \vdots & \vdots & \vdots &  \\
+\end{array}
+\]
+Each row in Matrix A has the same pattern as the Fibonacci sequence, and since the Fibonacci sequence is countable, we can conclude that the rows are countable, and the number of columns are also countable because they have the same cardinality as the natural numbers. Therefore, Matrix A is countable. \\
+Matrix B obtained from Matrix A looks like the following:
+ \[
+\begin{array}{ccccccc}
+i& 1 & 2 & 3 & 4 & 5 & \cdots \\
+\hline
+1 & 1 & 1 & 1 & 1 & 1 & \cdots \\
+2 & 3 & 3 & 3 & 3 & 3 & \cdots \\
+3 & 7 & 7 & 7 & 7 & 7 & \cdots \\
+4 & 14 & 14 & 14 & 14 & 14 & \cdots \\
+5 & 28 & 28 & 28 & 28 & 28 & \cdots \\
+\vdots & \vdots & \vdots & \vdots & \vdots & \vdots &  \\
+\end{array}
+\]
+
+The entries in Matrix B are the diagonal values of Matrix A. From part a, we know that the union of countable sets is countable. Entries in Matrix B are obtained from Matrix A, which is countable. Therefore, the number of entries in B is also countable.
+
     \end{solution}
 
 \end{questions}
